@@ -12,7 +12,7 @@ public class SuperBowl
 	private String location;
 	
 	// txt file where data comes from
-	private final static String SBInfo = "superbowl-information.txt";
+	public final static String SBInfo = "superbowl-information.txt";
 	
 	
 	// class constructor

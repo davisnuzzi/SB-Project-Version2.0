@@ -1,0 +1,29 @@
+/* styles.css */
+/* Add your custom styles here */
+#AnchorPane {
+    -fx-background-color: #3498db; /* Set background color to a shade of blue */
+}
+
+#welcomeText {
+    -fx-fill: white; /* Set text color to white */
+}
+
+Button {
+    -fx-font-size: 16px;
+    -fx-background-color: #2ecc71; /* Set default button color to a shade of green */
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-opacity: 0; /* Initially set opacity to 0 for fade-in effect */
+    -fx-effect: dropshadow(three-pass-box, #333, 10, 0, 0, 0); /* Add a subtle drop shadow */
+    -fx-transition: transform 0.3s, opacity 0.5s; /* Set transitions for hover effect */
+}
+
+Button:hover {
+    -fx-background-color: #27ae60; /* Change color on hover */
+    -fx-transform: scale(1.05); /* Scale up on hover */
+}
+
+#historyButton:hover, #winnersButton:hover, #mvpsButton:hover {
+    -fx-opacity: 1; /* Fade in when hovered */
+}
